@@ -44,3 +44,20 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+##  问题：peer react@"^16.4.0 || ^17.0.0" from connected-react-router@6.9.3
+采用该命令进行安装
+```
+npm install connected-react-router --legacy-peer-deps
+```
+
+## 项目结构
+```
+|--src
+|   |--components 组件
+|       |--core 前台页面组件
+|       |--admin 管理员相关页面
+
+```
